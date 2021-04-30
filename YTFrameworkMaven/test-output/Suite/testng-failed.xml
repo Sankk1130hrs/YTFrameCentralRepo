@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.testNG">
+        <methods>
+          <include name="m6"/>
+          <include name="m7"/>
+          <include name="m8"/>
+          <include name="m1"/>
+          <include name="m5"/>
+          <include name="m2"/>
+          <include name="m3"/>
+          <include name="m4"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.testNG -->
+      <class name="org.testing.TestScripts.TCFail">
+        <methods>
+          <include name="Browseropening"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TCFail -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Browseropening"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="BrowserOpening"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC8">
+        <methods>
+          <include name="Browseropening"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC8 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Browserlounch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC7">
+        <methods>
+          <include name="Browseropening"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC7 -->
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Signin"/>
+          <include name="Browseropening"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="BrowserOpening"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Browseropening"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
