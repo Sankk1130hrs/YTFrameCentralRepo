@@ -18,12 +18,12 @@ public class BaseClass
 	@BeforeMethod
 	public void BrowserOpening() throws IOException
 	{
-		File f=new File("../YTFramework/object.properties");
+		File f=new File("../YTFrameworkMaven/object.properties");
 		FileInputStream fr=new FileInputStream(f); 
 		pr=new Properties();
 		pr.load(fr);
 		
-		System.setProperty("webdriver.chrome.driver", "../YTFramework/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../YTFrameworkMaven/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.youtube.com");
 		driver.manage().window().maximize();

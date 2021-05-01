@@ -13,7 +13,7 @@ public class TC3
 	@BeforeMethod
 	public void Browseropening()
 	{
-		System.setProperty("webdriver.chrome.driver", "../YTFramework/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../YTFrameworkMaven/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.youtube.com");
 		driver.manage().window().maximize();
